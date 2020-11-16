@@ -1,7 +1,7 @@
 function getBooks(){
     //const allBooksApiUrl = "https://localhost:5001/api/books";
-    const allBooksApiUrl = "http://mis321example.herokuapp.com/api/books";
-    
+    const allBooksApiUrl = "https://mis321example.herokuapp.com/api/books";
+
     fetch(allBooksApiUrl).then(function(response){
         return response.json();
     }).then(function(json){
